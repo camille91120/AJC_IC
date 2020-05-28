@@ -5,13 +5,13 @@ QT5 sera utilisé comme outil de développement et l'intégration se fera à l'a
 
 # todolist
 
--[x] Etat de l'art et recherche d'informations sur les drones
--[x] Sprint Backlog pour la gestion des exigences et des priorités
--[x] Mock-up avec balsamique pour le design du logiciel
--[ ] Répartition des users stories entre chaque membre du groupe
--[ ] Intégration des fonctionnalités avec une chaine d'intégration continue
--[ ] Campagne de test pour les fonctionnalités du logiciel
--[ ] Présentation du produit livrable
+- [x] Etat de l'art et recherche d'informations sur les drones
+- [x] Sprint Backlog pour la gestion des exigences et des priorités
+- [x] Mock-up avec balsamique pour le design du logiciel
+- [ ] Répartition des users stories entre chaque membre du groupe
+- [ ] Intégration des fonctionnalités avec une chaine d'intégration continue
+- [ ] Campagne de test pour les fonctionnalités du logiciel
+- [ ] Présentation du produit livrable
 
 # Organisation du dépot git
 
