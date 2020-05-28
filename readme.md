@@ -15,7 +15,7 @@ QT5 sera utilisé comme outil de développement et l'intégration se fera à l'a
 
 # Organisation du dépot git
 
-Le dépot git est organisé en 5 branches :
+Le dépot git est organisé en 4 branches :
 - La branche master
 - la branche utilisateur (gestion des comptes)
 - la branche aérien (gestion des contraintes aériennes)
