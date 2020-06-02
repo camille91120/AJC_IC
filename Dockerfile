@@ -1,11 +1,11 @@
 FROM gradle
-RUN mkdir /home/gradle/project
-WORKDIR /home/gradle/project
-VOLUME project
-COPY ./ /home/gradle/project
+RUN mkdir /home/gradle/myProject
+WORKDIR /home/gradle/myProject
+VOLUME myProject
+COPY ./ /home/gradle/myProject
 
 ENV TZ=Europe/Paris
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-RUN apt update && apt install php gzip -yq --no-install-recommends
 
-RUN gradle tarball --no-daemon --info
+RUN zip publish --no-daemon --info
+RUN hello publish --no-daemon --info
