@@ -1,0 +1,21 @@
+apply plugin: "distribution"
+
+def majorVersion = System.getenv("MAJOR_VERSION") ?: "1"
+def minorVersion = System.getenv("MINOR_VERSION") ?: "0"
+version = majorVersion + "." + minorVersion 
+
+
+
+task purge (type:Delete) {
+    [...]
+}
+task composer(type:Exec, dependsOn: purge) {
+    [...]
+}
+task vendor(type:Exec, dependsOn: composer) {
+    [...]
+}
+[...]
+task tarball(type:Exec, dependsOn: vendor, applicationDistTar) {
+    [...]
+}
